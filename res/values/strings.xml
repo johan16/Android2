@@ -4,5 +4,24 @@
     <string name="app_name">datos</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string-array name="paises">
+        <item >Chile</item>
+        <item >Argentina</item>
+        <item >Brasil</item>
+        <item >Peru</item>
+        <item >Bolivia</item>
+        <item >EEUU</item>
+        <item >Mexico</item>
+        <item >Colombia</item>
+        <item >Panama</item>
+        <item >Canada</item>
+        <item >Uruguay</item>
+        <item >Paraguay</item>
+        <item >Rusia</item>
+        <item >China</item>
+        <item >Iran</item>
+        <item >Irak</item>
+        <item >Egipto</item>
+    </string-array>
 
 </resources>

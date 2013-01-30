@@ -27,12 +27,16 @@ public class DatosActivity extends Activity {
 		ArrayList<String> listaPlaneta = new ArrayList<String>();
 		listaPlaneta.addAll(Arrays.asList(planetas));
 		
+		String[] paises = this.getResources().getStringArray(R.array.paises);
 		//Cargar adapter con datos
-		listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listaPlaneta);
+		listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, paises);
+		
 		
 		
 		//Asociar listView con adapter
 		lv.setAdapter(listAdapter);
+		
+		
 		
 	}
 	
