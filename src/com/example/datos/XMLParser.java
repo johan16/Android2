@@ -1,5 +1,5 @@
-package com.lostiempos.lector;
-
+//CAMBIAR X TU PACKAGE
+package com.example.datos;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
@@ -68,11 +68,11 @@ public class XMLParser {
 				for (int j=0;j<properties.getLength();j++){
 					Node property = properties.item(j);
 					String name = property.getNodeName();
-					
+					// CAMBIAR AL NOMBRE DE TU ACTIVITY
 					if (name.equalsIgnoreCase("title")){
-						entry.put(PrincipalActivity.DATA_TITLE, property.getFirstChild().getNodeValue());
+						entry.put(DatosActivity.DATA_TITLE, property.getFirstChild().getNodeValue());
 					} else if (name.equalsIgnoreCase("link")){
-						entry.put(PrincipalActivity.DATA_LINK, property.getFirstChild().getNodeValue());						
+						entry.put(DatosActivity.DATA_LINK, property.getFirstChild().getNodeValue());						
 					}
 					
 				}
