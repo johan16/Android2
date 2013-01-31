@@ -45,11 +45,6 @@ public class XMLParser {
 	}
 	
 	
-	
-	
-	
-	
-	
 	public LinkedList<HashMap<String, String>> parse() {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		LinkedList<HashMap<String, String>> entries = new LinkedList<HashMap<String, String>>();
